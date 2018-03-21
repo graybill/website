@@ -4,3 +4,7 @@ html, body {
   font-weight: 300;
   margin: 1em;
   text-align: center; }
+
+/* line 8, src/css/main.scss */
+header img#philadelphia {
+  width: 100%; }
