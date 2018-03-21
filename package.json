@@ -1,0 +1,17 @@
+{
+  "name": "linusgraybill",
+  "description": "Personal website of Linus Graybill",
+  "author": "graybill",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.7.2",
+    "normalize": "^0.3.1",
+    "normalize.css": "^8.0.0"
+  },
+  "scripts": {
+    "css": "node-sass src/css/main.scss public/css/main.css",
+    "watch:css": "yarn css -watch"
+  }
+}
