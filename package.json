@@ -8,10 +8,13 @@
   "dependencies": {
     "node-sass": "^4.7.2",
     "normalize": "^0.3.1",
-    "normalize.css": "^8.0.0"
+    "normalize.css": "^8.0.0",
+    "pug": "^2.0.3",
+    "pug-cli": "^1.0.0-alpha6"
   },
   "scripts": {
     "css": "node-sass src/css/main.scss public/css/main.css",
+    "watch:html": "pug -w -o public src/index.pug",
     "watch:css": "yarn css -watch"
   }
 }
